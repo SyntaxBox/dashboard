@@ -2,11 +2,11 @@ import Image from "next/image";
 import React from "react";
 import Tilt from "react-parallax-tilt";
 
-export default function CreditCard({ coin, type, money, color }) {
+export default function CreditCard({ coin, type, money, color }: any) {
   return (
     <Tilt>
       <div
-        className={` flex flex-col justify-between cursor-pointer p-4 h-[200px] w-[350px] rounded-2xl bg-${color} `}
+        className={` flex flex-col justify-between cursor-pointer p-4 h-[200px] w-[330px] rounded-2xl bg-${color} `}
       >
         <div className="flex items-center justify-between">
           <div className="flex gap-3 text-white items-center">

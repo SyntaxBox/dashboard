@@ -10,9 +10,9 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider attribute="class">
       <Provider>
-        <div className="bg-kani dark:bg-black min-h-screen">
+        <div className="bg-kani dark:bg-black min-h-screen mx-auto">
           <Navigation />
-          <div className="flex">
+          <div className="flex max-w-[1366px] mx-auto">
             <HNav />
             <MainSection>
               <Component {...pageProps} />

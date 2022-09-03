@@ -11,6 +11,77 @@ body {
   font-family: "Nunito";
 }
 
+.anim-gear {
+  animation: rotate 3s ease-in-out infinite;
+  -webkit-animation: rotate 3s ease-in-out infinite;
+  position: absolute;
+}
+
+.small-gear {
+  animation: rotate2 3s ease-in-out infinite 1.5s;
+  -webkit-animation: rotate2 3s ease-in-out infinite 1.5s;
+  position: absolute;
+}
+
+.rot-gear {
+  animation: rotate1 3s ease-in-out infinite;
+  -webkit-animation: rotate1 3s ease-in-out infinite;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+  }
+}
+
+@keyframes rotate2 {
+  from {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1080deg);
+    -webkit-transform: rotate(1080deg);
+    -moz-transform: rotate(1080deg);
+    -ms-transform: rotate(1080deg);
+    -o-transform: rotate(1080deg);
+  }
+}
+
+@keyframes rotate1 {
+  from {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1080deg);
+    -webkit-transform: rotate(1080deg);
+    -moz-transform: rotate(1080deg);
+    -ms-transform: rotate(1080deg);
+    -o-transform: rotate(1080deg);
+  }
+}
+
 .Hnav {
   transform: translateX(-300px);
   -webkit-transform: translateX(-300px);

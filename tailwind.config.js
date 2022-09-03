@@ -12,6 +12,9 @@ module.exports = withMT({
         kani: "#0000ff12",
         kaniDk: "#1d1d1d",
       },
+      screens: {
+        mlg: "1310px",
+      },
     },
   },
   plugins: [],
